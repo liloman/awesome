@@ -1,14 +1,11 @@
-Vincent Bernat's awesome configuration
+Liloman's awesome configuration
 --------------------------------------
 
-This is my [awesome](http://awesome.naquadah.org) configuration. It
-does not exactly feature the same keybindings as the default
-configuration. I don't recommend using it by you can pick anything you
-need in it.
+This is my [awesome](http://awesome.naquadah.org) configuration.
+It's based on Vicent Bernat's one but I have added new awesomeness to it
+and it's made for Awesome 3.5.
 
-I rely on machine hostname for some configuration parts (see
-`rc/start.lua`) for the most important part.
-
+--Copy of vicent bernat's readme with just the parts left---
 Here some of the things you may be interested in:
 
  - It is modular. I am using `config` as a table to pass different
@@ -19,26 +16,9 @@ Here some of the things you may be interested in:
    `ps`, it looks at the list of awesome clients and at the list of
    connected clients with `xwininfo`. Seems reliable.
 
- - I use a light transparency effect to tell if a window has the focus
-   or not. It needs a composite manager.
-
- - I use a Python script `bin/build-wallpaper` to build the wallpaper
-   to be displayed. There is a random selection and it works with
-   multihead setup. It seems that classic tools are now able to change
-   the wallpaper per screen and therefore, the script may seem a bit
-   useless but I keep it.
-
- - I am using `xautolock` + `i3lock` as a screensaver. Nothing fancy
-   but I reuse the wallpaper built above. A notification is sent 10
-   seconds before starting.
-
  - In `rc/apparance.lua`, you may be interested by the way I configure
    GTK2 and GTK3 to have an unified look. It works and it does not
    need `gnome-control-center`.
-
- - I have rebuilt my own implementation of the Quake console in
-   `lib/quake.lua`. The common ones didn't like when awesome was
-   restarted.
 
  - I am using notifications when changing volume or brightness. I am
    also using notifications to change xrandr setup. This is pretty
@@ -58,3 +38,17 @@ way to load them is to use:
 
 	require("lib/quake")
 	local quake = package.loaded["vbe/quake"]
+--------------------------
+
+Added by me:
+ - Clients in each tags are numbered and you can get them with Alt+Num.
+ -There's a drop-down client implementation in scratch/, just press modkey + F4 
+  to drop-down-ish any client and modkey+F5 to show it.
+ -The tasklist is shown bottom of screen in a spare widget, not at top as usual.
+ -It's came with pomodoro task  ( pomodoroTasks in progress by myself which is going to
+ be great, at least for me ;) )
+ -You can configure maximum tasklist window width in rc/theme.lua (theme.tasklist_max_width)
+ -Only works in Awesome 3.5!!
+ -I use sakura as terminal and tmux 
+ -There're a lot coming in and maybe some changes missed but be patient. :)
+ 
