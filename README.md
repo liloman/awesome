@@ -5,7 +5,10 @@ This is my [awesome](http://awesome.naquadah.org) configuration.
 It's based on Vicent Bernat's one but I have added new awesomeness to it
 and it's made for Awesome 3.5.
 
+--------------------------
+
 --Copy of vicent bernat's readme with just the parts left---
+
 Here some of the things you may be interested in:
 
  - It is modular. I am using `config` as a table to pass different
@@ -42,13 +45,20 @@ way to load them is to use:
 
 Added by me:
  - Clients in each tags are numbered and you can get them with Alt+Num.
- -There's a drop-down client implementation in scratch/, just press modkey + F4 
+ 
+ - There's a drop-down client implementation in scratch/, just press modkey + F4 
   to drop-down-ish any client and modkey+F5 to show it.
- -The tasklist is shown bottom of screen in a spare widget, not at top as usual.
- -It's came with pomodoro task  ( pomodoroTasks in progress by myself which is going to
+
+ - The tasklist is shown bottom of screen in a spare widget, not at top as usual.
+
+ - It's came with pomodoro task  ( pomodoroTasks in progress by myself which is going to
  be great, at least for me ;) )
- -You can configure maximum tasklist window width in rc/theme.lua (theme.tasklist_max_width)
- -Only works in Awesome 3.5!!
- -I use sakura as terminal and tmux 
- -There're a lot coming in and maybe some changes missed but be patient. :)
+
+ - You can configure maximum tasklist window width in rc/theme.lua (theme.tasklist_max_width)
+
+ - Only works in Awesome 3.5!!
+
+ - I use sakura as terminal and tmux 
+
+ - There're a lot coming in and maybe some changes missed but be patient. :)
  
