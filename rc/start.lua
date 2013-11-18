@@ -49,6 +49,7 @@ else  --config.hostname == "wheezy" then
 	 -- Keyboard and mouse
 	 "xset m 4 3",	-- Mouse acceleration
 	 "xmodmap -e 'keysym Pause = XF86ScreenSaver'",
+     "xmodmap -e 'clear Lock' -e 'keycode 66 = Escape'"
 	       })
 end
 
