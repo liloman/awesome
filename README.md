@@ -51,7 +51,7 @@ Added by me:
 
  - The tasklist is shown bottom of screen in a spare widget, not at top as usual.
 
- - It's came with pomodoro task  ( pomodoroTasks in progress by myself which is going to
+ - It's going to came with pomodoro Tasks  ( pomodoroTasks in progress by myself which is going to
  be great, at least for me ;) )
 
  - You can configure maximum tasklist window width in rc/theme.lua (theme.tasklist_max_width)
